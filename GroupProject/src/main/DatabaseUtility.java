@@ -55,6 +55,16 @@ public class DatabaseUtility {
         insertDatabase(statement);
     }
 
+    public void update(String table, String[] fields, String[] values, String lookUpKey, String lookUpValue) throws SQLException {
+        String statement = "UPDATE "+table+" SET ";
+        //TODO: Check to make sure fields and values are equal length
+        for(int i=0; i<fields.length-1; i++){
+            statement += fields[i]+"="+values[i]+", ";
+        }
+        statement += fields[fields.length-1]+" = "+values[values.length-1]+" WHERE "+lookUpKey+ " = "+lookUpValue+";";
+        insertDatabase(statement);
+    }
+
     public User getCurrentUser(){
         return currentUser;
     }

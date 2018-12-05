@@ -38,9 +38,8 @@ public class LoginController {
     @FXML
     public void loginPressed() throws IOException, SQLException {
         Stage stage = (Stage) login.getScene().getWindow();
-        DatabaseUtility dbUtil = new DatabaseUtility();
         String query = "SELECT * FROM User WHERE UserName=\'"+username.getText()+"\';";
-        ResultSet getUser = dbUtil.queryDatabase(query);
+        ResultSet getUser = dbUtility.queryDatabase(query);
         if (!getUser.next()) {
             utility.showAlert("Authentication Error", "That username doesn't exist!");
         }
@@ -48,11 +47,11 @@ public class LoginController {
             utility.showAlert("Authentication Error", "Incorrect password!");
         }
         else if(getUser.getString(8).equals("T")){
-            dbUtil.currentUser = new User(getUser.getInt(1), getUser.getString(4), getUser.getString(5), getUser.getString(2), getUser.getString(3), getUser.getString(6), true);
+            dbUtility.currentUser = new User(getUser.getInt(1), getUser.getString(4), getUser.getString(5), getUser.getString(2), getUser.getString(3), getUser.getString(6), true);
             utility.loadNewFXML(stage, "../fxmls/admin_landing_page.fxml");
         }
         else if(getUser.getString(8).equals("F")) {
-            dbUtil.currentUser = new User(getUser.getInt(1), getUser.getString(4), getUser.getString(5), getUser.getString(2), getUser.getString(3), getUser.getString(6), false);
+            dbUtility.currentUser = new User(getUser.getInt(1), getUser.getString(4), getUser.getString(5), getUser.getString(2), getUser.getString(3), getUser.getString(6), false);
             utility.loadNewFXML(stage, "../fxmls/user_landing_page.fxml");
         } else {
             utility.showAlert("Authentication Error", "Please enter a valid username and password");

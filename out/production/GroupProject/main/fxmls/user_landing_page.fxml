@@ -22,7 +22,7 @@
     <RowConstraints maxHeight="311.0" minHeight="0.0" prefHeight="36.0" vgrow="SOMETIMES" />
   </rowConstraints>
    <children>
-      <VBox prefHeight="215.0" prefWidth="512.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+      <VBox fx:id="prevOrders" prefHeight="215.0" prefWidth="512.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
          <children>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Previous Orders" />
             <Hyperlink text="Previous Order 1" />
@@ -36,7 +36,7 @@
             <TextArea prefHeight="253.0" prefWidth="512.0" text="Current Order Details." />
          </children>
       </VBox>
-      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome, [USERNAME]" GridPane.valignment="TOP">
+      <Text fx:id="welcome" strokeType="OUTSIDE" strokeWidth="0.0" GridPane.valignment="TOP">
          <GridPane.margin>
             <Insets left="7.0" top="7.0" />
          </GridPane.margin>

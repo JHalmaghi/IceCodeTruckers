@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="GroupProject:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5173dfef-09e3-47ef-ad95-e2b287d6210c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GroupProject/src/main/controllers/EditUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GroupProject/src/main/controllers/SubmitErrorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GroupProject/src/main/fxmls/edit_user.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GroupProject/src/main/fxmls/submit_error.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GroupProject/src/main/controllers/AdminLandingPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/GroupProject/src/main/controllers/AdminLandingPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GroupProject/src/main/controllers/ConfirmationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/GroupProject/src/main/controllers/ConfirmationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GroupProject/src/main/controllers/ControllerUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/GroupProject/src/main/controllers/ControllerUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GroupProject/src/main/controllers/EditAccountController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GroupProject/src/main/DatabaseUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/GroupProject/src/main/DatabaseUtility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GroupProject/src/main/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/GroupProject/src/main/controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GroupProject/src/main/controllers/PlaceOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/GroupProject/src/main/controllers/PlaceOrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GroupProject/src/main/controllers/RegisterNewUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/GroupProject/src/main/controllers/RegisterNewUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GroupProject/src/main/controllers/RestockInventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/GroupProject/src/main/controllers/RestockInventoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GroupProject/src/main/controllers/UserLandingPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/GroupProject/src/main/controllers/UserLandingPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GroupProject/src/main/fxmls/admin_landing_page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/GroupProject/src/main/fxmls/admin_landing_page.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GroupProject/src/main/fxmls/edit_account.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GroupProject/src/main/fxmls/register_new_user.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/GroupProject/src/main/fxmls/register_new_user.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GroupProject/src/main/fxmls/restock_inventory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/GroupProject/src/main/fxmls/restock_inventory.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GroupProject/src/main/fxmls/user_landing_page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/GroupProject/src/main/fxmls/user_landing_page.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,40 +32,42 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="fxml" value="21" />
-          <entry key="java" value="48" />
+          <entry key="class" value="4" />
+          <entry key="fxml" value="26" />
+          <entry key="java" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="48" />
-          <entry key="XML" value="21" />
+          <entry key="CLASS" value="4" />
+          <entry key="JAVA" value="77" />
+          <entry key="XML" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="27" />
-          <entry key="fxml" value="140" />
-          <entry key="java" value="4169" />
+          <entry key="fxml" value="178" />
+          <entry key="java" value="11607" />
           <entry key="txt" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4169" />
+          <entry key="JAVA" value="11607" />
           <entry key="PLAIN_TEXT" value="130" />
-          <entry key="XML" value="140" />
+          <entry key="XML" value="178" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/RestockInventoryController.java">
+        <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/EditUserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+            <state relative-caret-position="427">
+              <caret line="88" column="68" selection-start-line="88" selection-start-column="68" selection-end-line="88" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,13 +76,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/ConfirmationController.java">
+        <entry file="file://$PROJECT_DIR$/GroupProject/src/main/DatabaseUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            <state relative-caret-position="195">
+              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1750#1751#0" expanded="true" />
+                <element signature="e#1784#1785#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/UserLandingPageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="924">
+              <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -93,20 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/ControllerUtility.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="810">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,10 +110,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/UserLandingPageController.java">
+        <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/PlaceOrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="54" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
+            <state relative-caret-position="833">
+              <caret line="69" column="27" lean-forward="true" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,30 +149,39 @@
         <option value="$PROJECT_DIR$/GroupProject/src/main/register_new_user.fxml" />
         <option value="$PROJECT_DIR$/GroupProject/src/main/ControllerUtility.java" />
         <option value="$PROJECT_DIR$/GroupProject/src/main/fxmls/restock_inventory.fxml" />
-        <option value="$PROJECT_DIR$/GroupProject/src/main/Main.java" />
         <option value="$PROJECT_DIR$/GroupProject/src/main/fxmls/edit_account.fxml" />
         <option value="$PROJECT_DIR$/GroupProject/src/main/fxmls/confirmation.fxml" />
-        <option value="$PROJECT_DIR$/GroupProject/src/main/controllers/PlaceOrderController.java" />
-        <option value="$PROJECT_DIR$/GroupProject/src/main/fxmls/place_order.fxml" />
         <option value="$PROJECT_DIR$/GroupProject/src/main/controllers/EditIserController.java" />
         <option value="$PROJECT_DIR$/GroupProject/src/main/fxmls/submit_error.fxml" />
         <option value="$PROJECT_DIR$/GroupProject/src/main/fxmls/EditUserController.java" />
-        <option value="$PROJECT_DIR$/GroupProject/src/main/controllers/RegisterNewUserController.java" />
         <option value="$PROJECT_DIR$/GroupProject/src/main/controllers/EditAccountController.java" />
         <option value="$PROJECT_DIR$/GroupProject/src/main/fxmls/edit_user.fxml" />
-        <option value="$PROJECT_DIR$/GroupProject/src/main/controllers/EditUserController.java" />
         <option value="$PROJECT_DIR$/GroupProject/src/main/fxmls/admin_landing_page.fxml" />
         <option value="$PROJECT_DIR$/GroupProject/src/main/controllers/AdminLandingPageController.java" />
         <option value="$PROJECT_DIR$/GroupProject/src/main/controllers/RestockInventoryController.java" />
         <option value="$PROJECT_DIR$/GroupProject/src/main/controllers/ConfirmationController.java" />
+        <option value="$PROJECT_DIR$/GroupProject/src/main/controllers/ControllerUtility.java" />
+        <option value="$PROJECT_DIR$/GroupProject/src/main/Main.java" />
+        <option value="$PROJECT_DIR$/GroupProject/src/main/User.java" />
+        <option value="$PROJECT_DIR$/GroupProject/src/main/fxmls/place_order.fxml" />
+        <option value="$PROJECT_DIR$/GroupProject/src/main/fxmls/register_new_user.fxml" />
+        <option value="$PROJECT_DIR$/GroupProject/src/main/controllers/EditUserController.java" />
+        <option value="$PROJECT_DIR$/GroupProject/src/main/controllers/RegisterNewUserController.java" />
+        <option value="$PROJECT_DIR$/GroupProject/src/main/DatabaseUtility.java" />
+        <option value="$PROJECT_DIR$/GroupProject/src/main/controllers/PlaceOrderController.java" />
+        <option value="$PROJECT_DIR$/GroupProject/src/main/controllers/UserLandingPageController.kt" />
         <option value="$PROJECT_DIR$/GroupProject/src/main/controllers/LoginController.java" />
         <option value="$PROJECT_DIR$/GroupProject/src/main/controllers/UserLandingPageController.java" />
-        <option value="$PROJECT_DIR$/GroupProject/src/main/controllers/ControllerUtility.java" />
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2292" />
     <option name="y" value="23" />
     <option name="width" value="1146" />
     <option name="height" value="1417" />
@@ -217,12 +221,6 @@
               <item name="IceCodeTruckers" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IceCodeTruckers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -247,11 +245,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542848164287" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543991778053" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -324,36 +322,64 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2292" y="23" width="1146" height="1417" extended-state="0" />
+    <frame x="0" y="23" width="1146" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23822464" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20923913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" weight="0.4673797" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32830188" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32981133" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23245282" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23169811" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25207546" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.4673797" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3272727" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2871377" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32981133" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23208556" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.4673797" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32830188" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -389,14 +415,37 @@
     <MESSAGE value="Added more navigation" />
     <option name="LAST_COMMIT_MESSAGE" value="Added more navigation" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GroupProject/src/main/controllers/EditUserController.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GroupProject/src/main/controllers/PlaceOrderController.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GroupProject/src/main/controllers/UserLandingPageController.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GroupProject/src/main/controllers/UserLandingPageController.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GroupProject/src/main/Address.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -412,12 +461,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GroupProject/src/main/fxmls/login.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="32" selection-start-line="29" selection-end-line="32" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/GroupProject/src/main/Order.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -427,56 +476,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GroupProject/src/main/fxmls/restock_inventory.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/GroupProject/src/main/fxmls/user_landing_page.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/fxmls/place_order.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/PlaceOrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GroupProject/src/main/fxmls/confirmation.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/SubmitErrorController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -486,92 +507,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GroupProject/src/main/fxmls/submit_error.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="837">
           <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/EditAccountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/fxmls/register_new_user.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="37" column="25" lean-forward="true" selection-end-line="196" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/fxmls/edit_account.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/fxmls/edit_user.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2085">
-          <caret line="139" column="26" selection-start-line="139" selection-start-column="26" selection-end-line="139" selection-end-column="26" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/EditUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/RegisterNewUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="48" column="40" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/EditAccountController.java" />
+    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/fxmls/edit_account.fxml" />
     <entry file="file://$PROJECT_DIR$/GroupProject/src/main/fxmls/admin_landing_page.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="268" selection-start-line="13" selection-start-column="268" selection-end-line="13" selection-end-column="268" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/AdminLandingPageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/RestockInventoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -585,10 +534,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/UserLandingPageController.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/javafx.graphics/javafx/scene/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="54" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
+        <state relative-caret-position="171">
+          <caret line="8342" selection-start-line="8342" selection-end-line="8342" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/AdminLandingPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/fxmls/place_order.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/ControllerUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/GroupProject/src/main/resources/mysql-connector-java-8.0.13.jar!/com/mysql/cj/jdbc/exceptions/SQLExceptionsMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/fxmls/edit_user.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1739">
+          <caret line="136" column="26" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/fxmls/register_new_user.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/GroupProject/src/main/resources/mysql-connector-java-8.0.13.jar!/com/mysql/cj/jdbc/StatementImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="303" selection-start-line="303" selection-end-line="303" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/RegisterNewUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="114" column="21" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/GroupProject/src/main/resources/mysql-connector-java-8.0.13.jar!/com/mysql/cj/jdbc/result/ResultSetImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="165" column="69" selection-start-line="165" selection-start-column="69" selection-end-line="165" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/javafx.fxml/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="1785" selection-start-line="1785" selection-end-line="1785" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/RestockInventoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/PlaceOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="69" column="27" lean-forward="true" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -597,21 +664,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="810">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/ControllerUtility.java">
+    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/EditUserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="427">
+          <caret line="88" column="68" selection-start-line="88" selection-start-column="68" selection-end-line="88" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/DatabaseUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="e#1750#1751#0" expanded="true" />
+            <element signature="e#1784#1785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GroupProject/src/main/controllers/UserLandingPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -621,10 +706,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>GroupProject:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -672,7 +759,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

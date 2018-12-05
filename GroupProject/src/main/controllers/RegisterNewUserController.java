@@ -112,6 +112,7 @@ public class RegisterNewUserController {
             ResultSet getAddr = dbUtil.queryDatabase(query);
             getAddr.next();
             fields = new String[] {"UserID", "AddressID", "CartType", "CardNumber", "CardExpMonth", "CardExpYear"};
+            // TODO: HANDLE CASE WHERE USER ENTER DIFFERENT ADDRESS INFO STILL
             values = new String[] {getUser.getString(1), getAddr.getString(1), "\'"+cardType.getText()+"\'", creditCardNumber.getText(), cardExpirationMonth.getText(), cardExpirationYear.getText(),};
             dbUtil.insert("PaymentInfo", fields, values);
             utility.back();

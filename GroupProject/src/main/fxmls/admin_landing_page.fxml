@@ -25,9 +25,7 @@
         <VBox prefHeight="215.0" prefWidth="512.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
             <children>
                 <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Reports To Run" />
-                <Hyperlink fx:id="report1" onAction="#report1Pressed" text="Report 1" />
-                <Hyperlink layoutX="10.0" layoutY="27.0" text="Report 2" />
-                <Hyperlink layoutX="10.0" layoutY="26.0" text="Report 3" />
+                <Hyperlink fx:id="currentInventory" onAction="#currentInvPressed" text="Current Inventory Report" />
             </children>
         </VBox>
         <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="1">
@@ -40,7 +38,7 @@
             </Button>
             </children>
         </VBox>
-        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome, [USERNAME]" GridPane.valignment="TOP">
+        <Text fx:id="welcome" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome, [USERNAME]" GridPane.valignment="TOP">
             <GridPane.margin>
                 <Insets left="7.0" top="7.0" />
             </GridPane.margin>

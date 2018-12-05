@@ -71,6 +71,7 @@ public class UserLandingPageController {
         }
         prevOrders.getChildren().clear();
         prevOrders.getChildren().addAll(orderLinks);
+        prevOrders.getChildren().add(placeNewOrder);
 
     }
 

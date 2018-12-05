@@ -29,7 +29,8 @@ public class DatabaseUtility {
 
     public ResultSet queryDatabase(String query) throws SQLException {
         getConnection();
-        Statement statement = connection.createStatement();
+        Statement statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,
+                ResultSet.CONCUR_UPDATABLE);
         ResultSet resultSet = statement.executeQuery(query);
         return resultSet;
     }

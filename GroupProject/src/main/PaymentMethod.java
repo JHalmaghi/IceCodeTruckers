@@ -7,6 +7,9 @@ public class PaymentMethod {
     private String typeOfCard;
     private int cardNumber;
     private Date experationDate;
+    private int expMonth;
+    private int expYear;
+    private Address address;
 
     public PaymentMethod(){}
 
@@ -32,5 +35,21 @@ public class PaymentMethod {
 
     public void setExperationDate(Date experationDate) {
         this.experationDate = experationDate;
+    }
+
+    public int getExpMonth() {
+        return expMonth;
+    }
+
+    public void setExpMonth(int expMonth) {
+        this.expMonth = expMonth;
+    }
+
+    public int getExpYear() {
+        return expYear;
+    }
+
+    public void setExpYear(int expYear) {
+        this.expYear = expYear;
     }
 }

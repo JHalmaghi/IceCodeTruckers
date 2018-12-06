@@ -140,7 +140,7 @@
                         <Insets bottom="5.0" top="5.0" />
                     </VBox.margin>
                 </Text>
-                <CheckBox fx:id="sameAsShipping" mnemonicParsing="false" onAction="#setSameAsShipping" text="Same as shipping">
+                <CheckBox fx:id="sameAsShipping" mnemonicParsing="false" text="Same as shipping">
                     <VBox.margin>
                         <Insets bottom="5.0" />
                     </VBox.margin>

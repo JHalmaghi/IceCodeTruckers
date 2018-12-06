@@ -75,10 +75,18 @@ public class EditUserController {
         firstName.setText(currentUser.getFirsName());
         lastName.setText(currentUser.getLastName());
         emailAddress.setText(currentUser.getEmail());
+        country.setText(currentUser.getAddress().getCountry());
+        streetName.setText(currentUser.getAddress().getStreetName());
+        streetNumber.setText(String.valueOf(currentUser.getAddress().getStreetNumber()));
+        city.setText(currentUser.getAddress().getCity());
+        state.setText(currentUser.getAddress().getState());
+        zip.setText(String.valueOf(currentUser.getAddress().getZipCode()));
     }
 
     @FXML
     public void submitUpdateUser() throws IOException, SQLException {
+        // Currently all fields must be filled out (or same as shipping checked for payment address
+        //TODO: Allow for empty fields
         if( username.getText().equals("") || password.getText().equals("")){
             utility.showAlert("Update Error", "You must enter a username and password!");
         }
@@ -99,6 +107,28 @@ public class EditUserController {
             dbUtil.getCurrentUser().setFirstName(firstName.getText());
             dbUtil.getCurrentUser().setLastName(lastName.getText());
             dbUtil.getCurrentUser().setEmail(emailAddress.getText());
+
+            String[] fields = new String[] {"UserID", "Country", "StreetNumber", "Unit", "StreetName", "City", "State", "ZipCode"};
+            String[] values = new String[] {String.valueOf(dbUtil.getCurrentUser().getUserID()), "\'"+country.getText()+"\'", streetNumber.getText(), unitNumber.getText(), "\'"+streetName.getText()+"\'", "\'"+city.getText()+"\'", "\'"+state.getText()+"\'", zip.getText()};
+            dbUtil.insert("Address", fields, values);
+            query = "SELECT * FROM Address WHERE UserID="+dbUtil.getCurrentUser().getUserID()+";";
+            ResultSet results = dbUtil.queryDatabase(query);
+            results.last();
+            int addressID;
+            if(sameAsShipping.isSelected()){
+                addressID = results.getInt(1);
+            } else {
+                fields = new String[] {"Country", "StreetNumber", "Unit", "StreetName", "City", "State", "ZipCode"};
+                values = new String[] {"\'"+paymentCountry.getText()+"\'", paymentStreetNumber.getText(), paymentUnitNumber.getText(), "\'"+paymentStreetName.getText()+"\'", "\'"+paymentCity.getText()+"\'", "\'"+paymentState.getText()+"\'", paymentZip.getText()};
+                dbUtil.insert("Address", fields, values);
+                query = "SELECT * FROM Address;";
+                results = dbUtil.queryDatabase(query);
+                results.last();
+                addressID = results.getInt(1);
+            }
+            fields = new String[] {"UserID", "AddressID", "CartType", "CardNumber", "CardExpMonth", "CardExpYear"};
+            values = new String[] {String.valueOf(dbUtil.getCurrentUser().getUserID()), String.valueOf(addressID), "\'"+cardType.getText()+"\'", creditCardNumber.getText(), cardExpirationMonth.getText(), cardExpirationYear.getText()};
+            dbUtil.update("PaymentInfo", fields, values, "UserID", String.valueOf(dbUtil.getCurrentUser().getUserID()));
             utility.showAlert("Update Accepted", "Update Successful!!");
             utility.back();
         }
@@ -108,10 +138,5 @@ public class EditUserController {
     public void cancel() throws IOException {
         Stage stage = (Stage) cancel.getScene().getWindow();
         utility.back();
-    }
-
-    @FXML
-    public void setSameAsShipping(){
-        //add logic here
     }
 }

@@ -6,8 +6,9 @@ public class Address {
     private int streetNumber;
     private String streetName;
     private int zipCode;
-    private String unitNumber;
+    private int unitNumber;
     private String state;
+    private String city;
 
     public Address(){}
 
@@ -43,11 +44,11 @@ public class Address {
         this.zipCode = zipCode;
     }
 
-    public String getUnitNumber() {
+    public int getUnitNumber() {
         return unitNumber;
     }
 
-    public void setUnitNumber(String unitNumber) {
+    public void setUnitNumber(int unitNumber) {
         this.unitNumber = unitNumber;
     }
 
@@ -58,5 +59,14 @@ public class Address {
     public void setState(String state) {
         this.state = state;
     }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
 
 }
